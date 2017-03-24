@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F56CE58FEBDE46E7551982 /* Pods_ChineseHandleWritting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7594BB48A691FBD231EEB079 /* Pods_ChineseHandleWritting.framework */; };
+		797F96F6C491A6A718452C5E /* Pods_ChineseHandleWrittingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81448531F9C68BEAA9E2A0C8 /* Pods_ChineseHandleWrittingTests.framework */; };
+		AD332A821E81342100E79A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332A811E81342100E79A7F /* AppDelegate.swift */; };
+		AD332A841E81342100E79A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332A831E81342100E79A7F /* ViewController.swift */; };
+		AD332A871E81342100E79A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD332A851E81342100E79A7F /* Main.storyboard */; };
+		AD332A891E81342100E79A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD332A881E81342100E79A7F /* Assets.xcassets */; };
+		AD332A8C1E81342100E79A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD332A8A1E81342100E79A7F /* LaunchScreen.storyboard */; };
+		AD332A971E81342100E79A7F /* ChineseHandleWrittingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332A961E81342100E79A7F /* ChineseHandleWrittingTests.swift */; };
+		AD332AA21E81342100E79A7F /* ChineseHandleWrittingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332AA11E81342100E79A7F /* ChineseHandleWrittingUITests.swift */; };
+		AD49CB2B1E825144006470A5 /* LCBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = AD49CB281E825144006470A5 /* LCBezierPath.m */; };
+		AD49CB2C1E825144006470A5 /* LCPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD49CB2A1E825144006470A5 /* LCPaintView.m */; };
+		AD997FC21E82F8DD00C1F965 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD997FBF1E82F8DD00C1F965 /* 1.jpg */; };
+		AD997FC31E82F8DD00C1F965 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD997FC01E82F8DD00C1F965 /* 2.jpg */; };
+		AD997FC41E82F8DD00C1F965 /* testHand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD997FC11E82F8DD00C1F965 /* testHand.jpg */; };
+		AD997FC61E82F90400C1F965 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD997FC51E82F90400C1F965 /* 3.jpg */; };
+		AD997FC81E83025900C1F965 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD997FC71E83025900C1F965 /* TestViewController.swift */; };
+		D9AD37360E4D308B36DDD039 /* Pods_ChineseHandleWrittingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139370AA3413475DE021F819 /* Pods_ChineseHandleWrittingUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD332A931E81342100E79A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD332A761E81342100E79A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD332A7D1E81342100E79A7F;
+			remoteInfo = ChineseHandleWritting;
+		};
+		AD332A9E1E81342100E79A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD332A761E81342100E79A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD332A7D1E81342100E79A7F;
+			remoteInfo = ChineseHandleWritting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139370AA3413475DE021F819 /* Pods_ChineseHandleWrittingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChineseHandleWrittingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FC53458DDA1C903F73471F /* Pods-ChineseHandleWritting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseHandleWritting.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChineseHandleWritting/Pods-ChineseHandleWritting.release.xcconfig"; sourceTree = "<group>"; };
+		70360633AF80C650E824DC3F /* Pods-ChineseHandleWritting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseHandleWritting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChineseHandleWritting/Pods-ChineseHandleWritting.debug.xcconfig"; sourceTree = "<group>"; };
+		7594BB48A691FBD231EEB079 /* Pods_ChineseHandleWritting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChineseHandleWritting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81448531F9C68BEAA9E2A0C8 /* Pods_ChineseHandleWrittingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChineseHandleWrittingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A57CB5C7A3CBEAC94FC21DE /* Pods-ChineseHandleWrittingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseHandleWrittingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChineseHandleWrittingTests/Pods-ChineseHandleWrittingTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD332A7E1E81342100E79A7F /* ChineseHandleWritting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseHandleWritting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD332A811E81342100E79A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD332A831E81342100E79A7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD332A861E81342100E79A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD332A881E81342100E79A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD332A8B1E81342100E79A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD332A8D1E81342100E79A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD332A921E81342100E79A7F /* ChineseHandleWrittingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseHandleWrittingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD332A961E81342100E79A7F /* ChineseHandleWrittingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseHandleWrittingTests.swift; sourceTree = "<group>"; };
+		AD332A981E81342100E79A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD332A9D1E81342100E79A7F /* ChineseHandleWrittingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseHandleWrittingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD332AA11E81342100E79A7F /* ChineseHandleWrittingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseHandleWrittingUITests.swift; sourceTree = "<group>"; };
+		AD332AA31E81342100E79A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD49CB261E825144006470A5 /* ChineseHandleWritting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChineseHandleWritting-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD49CB271E825144006470A5 /* LCBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBezierPath.h; sourceTree = "<group>"; };
+		AD49CB281E825144006470A5 /* LCBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBezierPath.m; sourceTree = "<group>"; };
+		AD49CB291E825144006470A5 /* LCPaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPaintView.h; sourceTree = "<group>"; };
+		AD49CB2A1E825144006470A5 /* LCPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPaintView.m; sourceTree = "<group>"; };
+		AD997FBF1E82F8DD00C1F965 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		AD997FC01E82F8DD00C1F965 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		AD997FC11E82F8DD00C1F965 /* testHand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testHand.jpg; sourceTree = "<group>"; };
+		AD997FC51E82F90400C1F965 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		AD997FC71E83025900C1F965 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B45EEE7428E096816023D682 /* Pods-ChineseHandleWrittingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseHandleWrittingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChineseHandleWrittingUITests/Pods-ChineseHandleWrittingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7CC418ACABDD2EF1970745E /* Pods-ChineseHandleWrittingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseHandleWrittingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChineseHandleWrittingTests/Pods-ChineseHandleWrittingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3FB5F9B5F34EAE190288751 /* Pods-ChineseHandleWrittingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseHandleWrittingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChineseHandleWrittingUITests/Pods-ChineseHandleWrittingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD332A7B1E81342100E79A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F56CE58FEBDE46E7551982 /* Pods_ChineseHandleWritting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD332A8F1E81342100E79A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797F96F6C491A6A718452C5E /* Pods_ChineseHandleWrittingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD332A9A1E81342100E79A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AD37360E4D308B36DDD039 /* Pods_ChineseHandleWrittingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43572EDA87ECCF637526351F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70360633AF80C650E824DC3F /* Pods-ChineseHandleWritting.debug.xcconfig */,
+				58FC53458DDA1C903F73471F /* Pods-ChineseHandleWritting.release.xcconfig */,
+				B7CC418ACABDD2EF1970745E /* Pods-ChineseHandleWrittingTests.debug.xcconfig */,
+				9A57CB5C7A3CBEAC94FC21DE /* Pods-ChineseHandleWrittingTests.release.xcconfig */,
+				D3FB5F9B5F34EAE190288751 /* Pods-ChineseHandleWrittingUITests.debug.xcconfig */,
+				B45EEE7428E096816023D682 /* Pods-ChineseHandleWrittingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58A97721972C4304A2DE4497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7594BB48A691FBD231EEB079 /* Pods_ChineseHandleWritting.framework */,
+				81448531F9C68BEAA9E2A0C8 /* Pods_ChineseHandleWrittingTests.framework */,
+				139370AA3413475DE021F819 /* Pods_ChineseHandleWrittingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD332A751E81342100E79A7F = {
+			isa = PBXGroup;
+			children = (
+				AD332A801E81342100E79A7F /* ChineseHandleWritting */,
+				AD332A951E81342100E79A7F /* ChineseHandleWrittingTests */,
+				AD332AA01E81342100E79A7F /* ChineseHandleWrittingUITests */,
+				AD332A7F1E81342100E79A7F /* Products */,
+				43572EDA87ECCF637526351F /* Pods */,
+				58A97721972C4304A2DE4497 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD332A7F1E81342100E79A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD332A7E1E81342100E79A7F /* ChineseHandleWritting.app */,
+				AD332A921E81342100E79A7F /* ChineseHandleWrittingTests.xctest */,
+				AD332A9D1E81342100E79A7F /* ChineseHandleWrittingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD332A801E81342100E79A7F /* ChineseHandleWritting */ = {
+			isa = PBXGroup;
+			children = (
+				AD49CB271E825144006470A5 /* LCBezierPath.h */,
+				AD49CB281E825144006470A5 /* LCBezierPath.m */,
+				AD49CB291E825144006470A5 /* LCPaintView.h */,
+				AD49CB2A1E825144006470A5 /* LCPaintView.m */,
+				AD332A811E81342100E79A7F /* AppDelegate.swift */,
+				AD332A831E81342100E79A7F /* ViewController.swift */,
+				AD997FC51E82F90400C1F965 /* 3.jpg */,
+				AD332A851E81342100E79A7F /* Main.storyboard */,
+				AD332A881E81342100E79A7F /* Assets.xcassets */,
+				AD332A8A1E81342100E79A7F /* LaunchScreen.storyboard */,
+				AD332A8D1E81342100E79A7F /* Info.plist */,
+				AD49CB261E825144006470A5 /* ChineseHandleWritting-Bridging-Header.h */,
+				AD997FBF1E82F8DD00C1F965 /* 1.jpg */,
+				AD997FC01E82F8DD00C1F965 /* 2.jpg */,
+				AD997FC11E82F8DD00C1F965 /* testHand.jpg */,
+				AD997FC71E83025900C1F965 /* TestViewController.swift */,
+			);
+			path = ChineseHandleWritting;
+			sourceTree = "<group>";
+		};
+		AD332A951E81342100E79A7F /* ChineseHandleWrittingTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD332A961E81342100E79A7F /* ChineseHandleWrittingTests.swift */,
+				AD332A981E81342100E79A7F /* Info.plist */,
+			);
+			path = ChineseHandleWrittingTests;
+			sourceTree = "<group>";
+		};
+		AD332AA01E81342100E79A7F /* ChineseHandleWrittingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD332AA11E81342100E79A7F /* ChineseHandleWrittingUITests.swift */,
+				AD332AA31E81342100E79A7F /* Info.plist */,
+			);
+			path = ChineseHandleWrittingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD332A7D1E81342100E79A7F /* ChineseHandleWritting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD332AA61E81342100E79A7F /* Build configuration list for PBXNativeTarget "ChineseHandleWritting" */;
+			buildPhases = (
+				5F16B7BDAE38C5C22A2DC601 /* [CP] Check Pods Manifest.lock */,
+				AD332A7A1E81342100E79A7F /* Sources */,
+				AD332A7B1E81342100E79A7F /* Frameworks */,
+				AD332A7C1E81342100E79A7F /* Resources */,
+				1C3110D11B5B6CF49E4E4CD7 /* [CP] Embed Pods Frameworks */,
+				E5D8F7E233DA579A6D34576D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseHandleWritting;
+			productName = ChineseHandleWritting;
+			productReference = AD332A7E1E81342100E79A7F /* ChineseHandleWritting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD332A911E81342100E79A7F /* ChineseHandleWrittingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD332AA91E81342100E79A7F /* Build configuration list for PBXNativeTarget "ChineseHandleWrittingTests" */;
+			buildPhases = (
+				2E26B142CC829C9B9558C45E /* [CP] Check Pods Manifest.lock */,
+				AD332A8E1E81342100E79A7F /* Sources */,
+				AD332A8F1E81342100E79A7F /* Frameworks */,
+				AD332A901E81342100E79A7F /* Resources */,
+				D14721144D49C414AE6E6D74 /* [CP] Embed Pods Frameworks */,
+				ED01E723C5CAAABA819896A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD332A941E81342100E79A7F /* PBXTargetDependency */,
+			);
+			name = ChineseHandleWrittingTests;
+			productName = ChineseHandleWrittingTests;
+			productReference = AD332A921E81342100E79A7F /* ChineseHandleWrittingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD332A9C1E81342100E79A7F /* ChineseHandleWrittingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD332AAC1E81342100E79A7F /* Build configuration list for PBXNativeTarget "ChineseHandleWrittingUITests" */;
+			buildPhases = (
+				7ADA5C5F38E67F1732B519CC /* [CP] Check Pods Manifest.lock */,
+				AD332A991E81342100E79A7F /* Sources */,
+				AD332A9A1E81342100E79A7F /* Frameworks */,
+				AD332A9B1E81342100E79A7F /* Resources */,
+				38C567D9E6C2CE4B2E520030 /* [CP] Embed Pods Frameworks */,
+				4D7805EADBCB747458EB7D1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD332A9F1E81342100E79A7F /* PBXTargetDependency */,
+			);
+			name = ChineseHandleWrittingUITests;
+			productName = ChineseHandleWrittingUITests;
+			productReference = AD332A9D1E81342100E79A7F /* ChineseHandleWrittingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD332A761E81342100E79A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Trần An";
+				TargetAttributes = {
+					AD332A7D1E81342100E79A7F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63WQ52A53D;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					AD332A911E81342100E79A7F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD332A7D1E81342100E79A7F;
+					};
+					AD332A9C1E81342100E79A7F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD332A7D1E81342100E79A7F;
+					};
+				};
+			};
+			buildConfigurationList = AD332A791E81342100E79A7F /* Build configuration list for PBXProject "ChineseHandleWritting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD332A751E81342100E79A7F;
+			productRefGroup = AD332A7F1E81342100E79A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD332A7D1E81342100E79A7F /* ChineseHandleWritting */,
+				AD332A911E81342100E79A7F /* ChineseHandleWrittingTests */,
+				AD332A9C1E81342100E79A7F /* ChineseHandleWrittingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD332A7C1E81342100E79A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD332A8C1E81342100E79A7F /* LaunchScreen.storyboard in Resources */,
+				AD997FC21E82F8DD00C1F965 /* 1.jpg in Resources */,
+				AD997FC41E82F8DD00C1F965 /* testHand.jpg in Resources */,
+				AD997FC31E82F8DD00C1F965 /* 2.jpg in Resources */,
+				AD332A891E81342100E79A7F /* Assets.xcassets in Resources */,
+				AD997FC61E82F90400C1F965 /* 3.jpg in Resources */,
+				AD332A871E81342100E79A7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD332A901E81342100E79A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD332A9B1E81342100E79A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C3110D11B5B6CF49E4E4CD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChineseHandleWritting/Pods-ChineseHandleWritting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E26B142CC829C9B9558C45E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38C567D9E6C2CE4B2E520030 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChineseHandleWrittingUITests/Pods-ChineseHandleWrittingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7805EADBCB747458EB7D1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChineseHandleWrittingUITests/Pods-ChineseHandleWrittingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F16B7BDAE38C5C22A2DC601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7ADA5C5F38E67F1732B519CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D14721144D49C414AE6E6D74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChineseHandleWrittingTests/Pods-ChineseHandleWrittingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D8F7E233DA579A6D34576D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChineseHandleWritting/Pods-ChineseHandleWritting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED01E723C5CAAABA819896A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChineseHandleWrittingTests/Pods-ChineseHandleWrittingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD332A7A1E81342100E79A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD997FC81E83025900C1F965 /* TestViewController.swift in Sources */,
+				AD49CB2B1E825144006470A5 /* LCBezierPath.m in Sources */,
+				AD332A841E81342100E79A7F /* ViewController.swift in Sources */,
+				AD49CB2C1E825144006470A5 /* LCPaintView.m in Sources */,
+				AD332A821E81342100E79A7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD332A8E1E81342100E79A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD332A971E81342100E79A7F /* ChineseHandleWrittingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD332A991E81342100E79A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD332AA21E81342100E79A7F /* ChineseHandleWrittingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD332A941E81342100E79A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD332A7D1E81342100E79A7F /* ChineseHandleWritting */;
+			targetProxy = AD332A931E81342100E79A7F /* PBXContainerItemProxy */;
+		};
+		AD332A9F1E81342100E79A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD332A7D1E81342100E79A7F /* ChineseHandleWritting */;
+			targetProxy = AD332A9E1E81342100E79A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD332A851E81342100E79A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD332A861E81342100E79A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD332A8A1E81342100E79A7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD332A8B1E81342100E79A7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD332AA41E81342100E79A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD332AA51E81342100E79A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD332AA71E81342100E79A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70360633AF80C650E824DC3F /* Pods-ChineseHandleWritting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 63WQ52A53D;
+				INFOPLIST_FILE = ChineseHandleWritting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.ChineseHandleWritting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChineseHandleWritting/ChineseHandleWritting-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD332AA81E81342100E79A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FC53458DDA1C903F73471F /* Pods-ChineseHandleWritting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 63WQ52A53D;
+				INFOPLIST_FILE = ChineseHandleWritting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.ChineseHandleWritting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChineseHandleWritting/ChineseHandleWritting-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AD332AAA1E81342100E79A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CC418ACABDD2EF1970745E /* Pods-ChineseHandleWrittingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChineseHandleWrittingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.ChineseHandleWrittingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChineseHandleWritting.app/ChineseHandleWritting";
+			};
+			name = Debug;
+		};
+		AD332AAB1E81342100E79A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A57CB5C7A3CBEAC94FC21DE /* Pods-ChineseHandleWrittingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChineseHandleWrittingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.ChineseHandleWrittingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChineseHandleWritting.app/ChineseHandleWritting";
+			};
+			name = Release;
+		};
+		AD332AAD1E81342100E79A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FB5F9B5F34EAE190288751 /* Pods-ChineseHandleWrittingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChineseHandleWrittingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.ChineseHandleWrittingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChineseHandleWritting;
+			};
+			name = Debug;
+		};
+		AD332AAE1E81342100E79A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45EEE7428E096816023D682 /* Pods-ChineseHandleWrittingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChineseHandleWrittingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TranAn.ChineseHandleWrittingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChineseHandleWritting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD332A791E81342100E79A7F /* Build configuration list for PBXProject "ChineseHandleWritting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD332AA41E81342100E79A7F /* Debug */,
+				AD332AA51E81342100E79A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD332AA61E81342100E79A7F /* Build configuration list for PBXNativeTarget "ChineseHandleWritting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD332AA71E81342100E79A7F /* Debug */,
+				AD332AA81E81342100E79A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD332AA91E81342100E79A7F /* Build configuration list for PBXNativeTarget "ChineseHandleWrittingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD332AAA1E81342100E79A7F /* Debug */,
+				AD332AAB1E81342100E79A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD332AAC1E81342100E79A7F /* Build configuration list for PBXNativeTarget "ChineseHandleWrittingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD332AAD1E81342100E79A7F /* Debug */,
+				AD332AAE1E81342100E79A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD332A761E81342100E79A7F /* Project object */;
+}

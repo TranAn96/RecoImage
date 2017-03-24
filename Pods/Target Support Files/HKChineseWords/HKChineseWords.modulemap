@@ -1,0 +1,6 @@
+framework module HKChineseWords {
+  umbrella header "HKChineseWords-umbrella.h"
+
+  export *
+  module * { export * }
+}

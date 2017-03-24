@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HKChineseWords.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ChineseHandleWritting.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ChineseHandleWrittingTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ChineseHandleWrittingUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>006B46683179714E233BE339B1726F83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3BB828D163EBE85DE3D5D8453157485E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59957C1BE4B2D9D7A3238C8DE0CB4E6F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6824BA05F1626CE02C698D5E2E295203</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

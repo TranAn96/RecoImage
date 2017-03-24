@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616A946606358ECC332491F000FB7651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6DF29BA62C9D54FE51F7FD82908B3406 /* Pods-ChineseHandleWrittingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED052E6519F7CA15C5D172CBD8D81742 /* Pods-ChineseHandleWrittingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734F6F78719442D6789CFE4C75D3C1D0 /* Pods-ChineseHandleWrittingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4AA769A52D99C9D6000672D2D4EB7 /* Pods-ChineseHandleWrittingTests-dummy.m */; };
+		857EF46D8CB6228DCEB9264B5C3099BE /* HKChineseWords-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F825AB60053F1E3007B67BA2E566D3CC /* HKChineseWords-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8602D7887D91A42EE0F91C0DF76E4B8A /* Pods-ChineseHandleWritting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EA64618511B2C0DB528B0BEE315139 /* Pods-ChineseHandleWritting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C84D03AEDC7BE6ED696FB40003DACFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		977CEFCB599897904C4568864471152D /* Pods-ChineseHandleWritting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 934E7D607AD3124CB2B72D1C1C5C95F0 /* Pods-ChineseHandleWritting-dummy.m */; };
+		983CAA0E71CBEE35404E8D9884DC88AB /* Pods-ChineseHandleWrittingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931051DF9F16CB8F82056AF00D8E6CB3 /* Pods-ChineseHandleWrittingUITests-dummy.m */; };
+		D4FB2892E376C6239ABBB0E003FF0AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DED8EAEE9A9E8D500615530EEDFAB0BA /* Pods-ChineseHandleWrittingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C546E3B2C7B21ADD86A5F9B7F85AB7 /* Pods-ChineseHandleWrittingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E679EDCD5FCBD8511BAE4319CAC714E0 /* HKChineseWords-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D75E0A18A436069EEF43FFCC22898BE /* HKChineseWords-dummy.m */; };
+		E991F118FBEA042719AF778217BA5FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FDA20B1616F4D7AEF0D0E7851617094A /* HKChineseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638CDEF2B1AFEAC3DE9FC3A974ADD42 /* HKChineseWords.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA678DF434C8A929C22CB48764C62AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006B46683179714E233BE339B1726F83;
+			remoteInfo = HKChineseWords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100AECFA1288CC0871B732082877C262 /* Pods_ChineseHandleWritting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChineseHandleWritting.framework; path = "Pods-ChineseHandleWritting.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E445DF4F6F0A5D496791404BBAAC74 /* Pods-ChineseHandleWrittingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChineseHandleWrittingTests.modulemap"; sourceTree = "<group>"; };
+		2B47CFCB9E0A2AA5211FBE7AA85326BC /* Pods-ChineseHandleWrittingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChineseHandleWrittingTests-frameworks.sh"; sourceTree = "<group>"; };
+		2ED56B1A613E36B1D6F2D7F79F52D752 /* Pods-ChineseHandleWritting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChineseHandleWritting-resources.sh"; sourceTree = "<group>"; };
+		45A4AA769A52D99C9D6000672D2D4EB7 /* Pods-ChineseHandleWrittingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChineseHandleWrittingTests-dummy.m"; sourceTree = "<group>"; };
+		4D75E0A18A436069EEF43FFCC22898BE /* HKChineseWords-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKChineseWords-dummy.m"; sourceTree = "<group>"; };
+		4ED27E8A7D5EB3D16712B5D11E9BB5FC /* Pods-ChineseHandleWrittingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChineseHandleWrittingUITests-resources.sh"; sourceTree = "<group>"; };
+		51014D67D53DF5192A28CF857F89E36A /* Pods_ChineseHandleWrittingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChineseHandleWrittingTests.framework; path = "Pods-ChineseHandleWrittingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7A70D8C80EC5BE73C7CFDEC10C8DDE /* Pods-ChineseHandleWrittingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChineseHandleWrittingUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6254F8569D1B810DA7E114C9173D802B /* Pods-ChineseHandleWrittingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChineseHandleWrittingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6589469F3F171D655CFBC973F9FB0C32 /* Pods-ChineseHandleWrittingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChineseHandleWrittingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78C6A84769B3250E6D8F2D9D62897627 /* HKChineseWords.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HKChineseWords.modulemap; sourceTree = "<group>"; };
+		8648C3890268E0219A75BD44DCF0A4CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F652FF88CC596E24AA96F4CF3A90D5 /* Pods-ChineseHandleWrittingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChineseHandleWrittingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9212E9BD4ADE0321D2160FA746D895F1 /* HKChineseWords.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HKChineseWords.xcconfig; sourceTree = "<group>"; };
+		931051DF9F16CB8F82056AF00D8E6CB3 /* Pods-ChineseHandleWrittingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChineseHandleWrittingUITests-dummy.m"; sourceTree = "<group>"; };
+		934E7D607AD3124CB2B72D1C1C5C95F0 /* Pods-ChineseHandleWritting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChineseHandleWritting-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9638CDEF2B1AFEAC3DE9FC3A974ADD42 /* HKChineseWords.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKChineseWords.swift; path = HKChineseWords/Classes/HKChineseWords.swift; sourceTree = "<group>"; };
+		99EA64618511B2C0DB528B0BEE315139 /* Pods-ChineseHandleWritting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChineseHandleWritting-umbrella.h"; sourceTree = "<group>"; };
+		9DE313670361A1EE80E80D34EE55CDF4 /* Pods-ChineseHandleWrittingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChineseHandleWrittingUITests.modulemap"; sourceTree = "<group>"; };
+		A8B036CF5E0B7F7CCAD25173010892DE /* Pods-ChineseHandleWrittingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChineseHandleWrittingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD138C88121E99A6AB4284F77E471397 /* Pods-ChineseHandleWritting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChineseHandleWritting.release.xcconfig"; sourceTree = "<group>"; };
+		AE11D24210CADBF57D75D7C23EC40232 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF25BCE4718672C771A1C3D6CE86938 /* Pods-ChineseHandleWritting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChineseHandleWritting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3C546E3B2C7B21ADD86A5F9B7F85AB7 /* Pods-ChineseHandleWrittingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChineseHandleWrittingUITests-umbrella.h"; sourceTree = "<group>"; };
+		BE8F13FE39F973F130E703082CA0FCB1 /* Pods-ChineseHandleWrittingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChineseHandleWrittingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C09D712C5B2BCF37CF467A45C19855EA /* Pods-ChineseHandleWrittingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChineseHandleWrittingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3A230C1C21BF469E63CE5F8E7C54948 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B1D6AFF3410A6643897A6DA46F1B32 /* Pods-ChineseHandleWritting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChineseHandleWritting-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCB0F4C86B19D2D8D36C3E96A700CF00 /* Pods-ChineseHandleWritting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChineseHandleWritting.debug.xcconfig"; sourceTree = "<group>"; };
+		CCEF9845A6FDC98D10FCAF07CE4BBBE8 /* Pods-ChineseHandleWrittingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChineseHandleWrittingTests-resources.sh"; sourceTree = "<group>"; };
+		D379FED0327E7F0EBD9D7CACBAB3B02D /* HKChineseWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HKChineseWords.framework; path = HKChineseWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64C05DBEE297F137999F54CBF44CA14 /* Pods_ChineseHandleWrittingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChineseHandleWrittingUITests.framework; path = "Pods-ChineseHandleWrittingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5E8E4FD6B020CB160E0E8250C57EEA /* Pods-ChineseHandleWritting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChineseHandleWritting-frameworks.sh"; sourceTree = "<group>"; };
+		E0CE356C0C751E84E727B132059BC5DA /* HKChineseWords-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKChineseWords-prefix.pch"; sourceTree = "<group>"; };
+		E0F077314752C8CDD65E50ED4A876296 /* Pods-ChineseHandleWritting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChineseHandleWritting.modulemap"; sourceTree = "<group>"; };
+		E37DB4A026FB3B9A955EBB7EAF5EFC10 /* Pods-ChineseHandleWrittingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChineseHandleWrittingTests.release.xcconfig"; sourceTree = "<group>"; };
+		E73EDD981B6BD8124CC7B9F05AAC2396 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC82C49E3249F727D46BD4775AD26901 /* Pods-ChineseHandleWrittingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChineseHandleWrittingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED052E6519F7CA15C5D172CBD8D81742 /* Pods-ChineseHandleWrittingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChineseHandleWrittingTests-umbrella.h"; sourceTree = "<group>"; };
+		F825AB60053F1E3007B67BA2E566D3CC /* HKChineseWords-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKChineseWords-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14EF05EF986C9C0CCA91F57A77748D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616A946606358ECC332491F000FB7651 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7263A8DB9E40E80F0BEC0763D25B6423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E991F118FBEA042719AF778217BA5FB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EAE08EB57E1C3BF5771CE2F6EB61C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C84D03AEDC7BE6ED696FB40003DACFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE97218E3AD0E0A744571C02100E775E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FB2892E376C6239ABBB0E003FF0AF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12EABADAC74B336D508D94A9A82C36E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D379FED0327E7F0EBD9D7CACBAB3B02D /* HKChineseWords.framework */,
+				100AECFA1288CC0871B732082877C262 /* Pods_ChineseHandleWritting.framework */,
+				51014D67D53DF5192A28CF857F89E36A /* Pods_ChineseHandleWrittingTests.framework */,
+				D64C05DBEE297F137999F54CBF44CA14 /* Pods_ChineseHandleWrittingUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E13EB6181503EAB9A70AAD77801968 /* Pods-ChineseHandleWrittingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3A230C1C21BF469E63CE5F8E7C54948 /* Info.plist */,
+				25E445DF4F6F0A5D496791404BBAAC74 /* Pods-ChineseHandleWrittingTests.modulemap */,
+				EC82C49E3249F727D46BD4775AD26901 /* Pods-ChineseHandleWrittingTests-acknowledgements.markdown */,
+				BE8F13FE39F973F130E703082CA0FCB1 /* Pods-ChineseHandleWrittingTests-acknowledgements.plist */,
+				45A4AA769A52D99C9D6000672D2D4EB7 /* Pods-ChineseHandleWrittingTests-dummy.m */,
+				2B47CFCB9E0A2AA5211FBE7AA85326BC /* Pods-ChineseHandleWrittingTests-frameworks.sh */,
+				CCEF9845A6FDC98D10FCAF07CE4BBBE8 /* Pods-ChineseHandleWrittingTests-resources.sh */,
+				ED052E6519F7CA15C5D172CBD8D81742 /* Pods-ChineseHandleWrittingTests-umbrella.h */,
+				A8B036CF5E0B7F7CCAD25173010892DE /* Pods-ChineseHandleWrittingTests.debug.xcconfig */,
+				E37DB4A026FB3B9A955EBB7EAF5EFC10 /* Pods-ChineseHandleWrittingTests.release.xcconfig */,
+			);
+			name = "Pods-ChineseHandleWrittingTests";
+			path = "Target Support Files/Pods-ChineseHandleWrittingTests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A317FFF24DD2EAFA7C9B8CAB0CBDC07E /* Pods */,
+				12EABADAC74B336D508D94A9A82C36E3 /* Products */,
+				BA361DF30707B69CBCAC5868DAD48181 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		961B573BED3C7CFC9EFF015D6F3333E7 /* Pods-ChineseHandleWritting */ = {
+			isa = PBXGroup;
+			children = (
+				E73EDD981B6BD8124CC7B9F05AAC2396 /* Info.plist */,
+				E0F077314752C8CDD65E50ED4A876296 /* Pods-ChineseHandleWritting.modulemap */,
+				AFF25BCE4718672C771A1C3D6CE86938 /* Pods-ChineseHandleWritting-acknowledgements.markdown */,
+				C7B1D6AFF3410A6643897A6DA46F1B32 /* Pods-ChineseHandleWritting-acknowledgements.plist */,
+				934E7D607AD3124CB2B72D1C1C5C95F0 /* Pods-ChineseHandleWritting-dummy.m */,
+				DB5E8E4FD6B020CB160E0E8250C57EEA /* Pods-ChineseHandleWritting-frameworks.sh */,
+				2ED56B1A613E36B1D6F2D7F79F52D752 /* Pods-ChineseHandleWritting-resources.sh */,
+				99EA64618511B2C0DB528B0BEE315139 /* Pods-ChineseHandleWritting-umbrella.h */,
+				CCB0F4C86B19D2D8D36C3E96A700CF00 /* Pods-ChineseHandleWritting.debug.xcconfig */,
+				AD138C88121E99A6AB4284F77E471397 /* Pods-ChineseHandleWritting.release.xcconfig */,
+			);
+			name = "Pods-ChineseHandleWritting";
+			path = "Target Support Files/Pods-ChineseHandleWritting";
+			sourceTree = "<group>";
+		};
+		A317FFF24DD2EAFA7C9B8CAB0CBDC07E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9B013E256BACD446244C8F698E2426C /* HKChineseWords */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9B013E256BACD446244C8F698E2426C /* HKChineseWords */ = {
+			isa = PBXGroup;
+			children = (
+				9638CDEF2B1AFEAC3DE9FC3A974ADD42 /* HKChineseWords.swift */,
+				D6C58AF6AB9FA43CE0613B7CBF91EABB /* Support Files */,
+			);
+			name = HKChineseWords;
+			path = HKChineseWords;
+			sourceTree = "<group>";
+		};
+		BA361DF30707B69CBCAC5868DAD48181 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				961B573BED3C7CFC9EFF015D6F3333E7 /* Pods-ChineseHandleWritting */,
+				20E13EB6181503EAB9A70AAD77801968 /* Pods-ChineseHandleWrittingTests */,
+				E99BB1BDEA258CE519A9A67340C98016 /* Pods-ChineseHandleWrittingUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6C58AF6AB9FA43CE0613B7CBF91EABB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C6A84769B3250E6D8F2D9D62897627 /* HKChineseWords.modulemap */,
+				9212E9BD4ADE0321D2160FA746D895F1 /* HKChineseWords.xcconfig */,
+				4D75E0A18A436069EEF43FFCC22898BE /* HKChineseWords-dummy.m */,
+				E0CE356C0C751E84E727B132059BC5DA /* HKChineseWords-prefix.pch */,
+				F825AB60053F1E3007B67BA2E566D3CC /* HKChineseWords-umbrella.h */,
+				AE11D24210CADBF57D75D7C23EC40232 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HKChineseWords";
+			sourceTree = "<group>";
+		};
+		E99BB1BDEA258CE519A9A67340C98016 /* Pods-ChineseHandleWrittingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8648C3890268E0219A75BD44DCF0A4CB /* Info.plist */,
+				9DE313670361A1EE80E80D34EE55CDF4 /* Pods-ChineseHandleWrittingUITests.modulemap */,
+				6254F8569D1B810DA7E114C9173D802B /* Pods-ChineseHandleWrittingUITests-acknowledgements.markdown */,
+				86F652FF88CC596E24AA96F4CF3A90D5 /* Pods-ChineseHandleWrittingUITests-acknowledgements.plist */,
+				931051DF9F16CB8F82056AF00D8E6CB3 /* Pods-ChineseHandleWrittingUITests-dummy.m */,
+				5E7A70D8C80EC5BE73C7CFDEC10C8DDE /* Pods-ChineseHandleWrittingUITests-frameworks.sh */,
+				4ED27E8A7D5EB3D16712B5D11E9BB5FC /* Pods-ChineseHandleWrittingUITests-resources.sh */,
+				B3C546E3B2C7B21ADD86A5F9B7F85AB7 /* Pods-ChineseHandleWrittingUITests-umbrella.h */,
+				6589469F3F171D655CFBC973F9FB0C32 /* Pods-ChineseHandleWrittingUITests.debug.xcconfig */,
+				C09D712C5B2BCF37CF467A45C19855EA /* Pods-ChineseHandleWrittingUITests.release.xcconfig */,
+			);
+			name = "Pods-ChineseHandleWrittingUITests";
+			path = "Target Support Files/Pods-ChineseHandleWrittingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		335ABB7B56F55509AD7AC6989A0E910E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857EF46D8CB6228DCEB9264B5C3099BE /* HKChineseWords-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5803B493EBBC8955DD8C7539217D9976 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8602D7887D91A42EE0F91C0DF76E4B8A /* Pods-ChineseHandleWritting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D630A637F384BF9DCEA4C57C94B93C3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED8EAEE9A9E8D500615530EEDFAB0BA /* Pods-ChineseHandleWrittingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87FC4AF6E4452E75BDF31081AA31A9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF29BA62C9D54FE51F7FD82908B3406 /* Pods-ChineseHandleWrittingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		006B46683179714E233BE339B1726F83 /* HKChineseWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A1DE999222DB712B67F26E05BF99BF /* Build configuration list for PBXNativeTarget "HKChineseWords" */;
+			buildPhases = (
+				5BACB8BB7C94E30B02101F2B3C2A4D50 /* Sources */,
+				14EF05EF986C9C0CCA91F57A77748D73 /* Frameworks */,
+				335ABB7B56F55509AD7AC6989A0E910E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKChineseWords;
+			productName = HKChineseWords;
+			productReference = D379FED0327E7F0EBD9D7CACBAB3B02D /* HKChineseWords.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BB828D163EBE85DE3D5D8453157485E /* Pods-ChineseHandleWrittingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268E54F49C61BE9223536B5E8956C550 /* Build configuration list for PBXNativeTarget "Pods-ChineseHandleWrittingTests" */;
+			buildPhases = (
+				9D55EC9CC24E6450B1639892699E2057 /* Sources */,
+				AE97218E3AD0E0A744571C02100E775E /* Frameworks */,
+				E87FC4AF6E4452E75BDF31081AA31A9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChineseHandleWrittingTests";
+			productName = "Pods-ChineseHandleWrittingTests";
+			productReference = 51014D67D53DF5192A28CF857F89E36A /* Pods_ChineseHandleWrittingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59957C1BE4B2D9D7A3238C8DE0CB4E6F /* Pods-ChineseHandleWrittingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355BEBC7FBCDF6DE84B886B0C4BE0456 /* Build configuration list for PBXNativeTarget "Pods-ChineseHandleWrittingUITests" */;
+			buildPhases = (
+				5C023B87E8752C5390F9DC26C390F92A /* Sources */,
+				80EAE08EB57E1C3BF5771CE2F6EB61C6 /* Frameworks */,
+				D630A637F384BF9DCEA4C57C94B93C3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChineseHandleWrittingUITests";
+			productName = "Pods-ChineseHandleWrittingUITests";
+			productReference = D64C05DBEE297F137999F54CBF44CA14 /* Pods_ChineseHandleWrittingUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6824BA05F1626CE02C698D5E2E295203 /* Pods-ChineseHandleWritting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8163E79A1978537413DE4F03AD0EAB /* Build configuration list for PBXNativeTarget "Pods-ChineseHandleWritting" */;
+			buildPhases = (
+				7839994FD054EDA0D415F0A8B8DF559B /* Sources */,
+				7263A8DB9E40E80F0BEC0763D25B6423 /* Frameworks */,
+				5803B493EBBC8955DD8C7539217D9976 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D492E5403D184EF5B34E82193B3BF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChineseHandleWritting";
+			productName = "Pods-ChineseHandleWritting";
+			productReference = 100AECFA1288CC0871B732082877C262 /* Pods_ChineseHandleWritting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 12EABADAC74B336D508D94A9A82C36E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				006B46683179714E233BE339B1726F83 /* HKChineseWords */,
+				6824BA05F1626CE02C698D5E2E295203 /* Pods-ChineseHandleWritting */,
+				3BB828D163EBE85DE3D5D8453157485E /* Pods-ChineseHandleWrittingTests */,
+				59957C1BE4B2D9D7A3238C8DE0CB4E6F /* Pods-ChineseHandleWrittingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BACB8BB7C94E30B02101F2B3C2A4D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E679EDCD5FCBD8511BAE4319CAC714E0 /* HKChineseWords-dummy.m in Sources */,
+				FDA20B1616F4D7AEF0D0E7851617094A /* HKChineseWords.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C023B87E8752C5390F9DC26C390F92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983CAA0E71CBEE35404E8D9884DC88AB /* Pods-ChineseHandleWrittingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7839994FD054EDA0D415F0A8B8DF559B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977CEFCB599897904C4568864471152D /* Pods-ChineseHandleWritting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D55EC9CC24E6450B1639892699E2057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734F6F78719442D6789CFE4C75D3C1D0 /* Pods-ChineseHandleWrittingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49D492E5403D184EF5B34E82193B3BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HKChineseWords;
+			target = 006B46683179714E233BE339B1726F83 /* HKChineseWords */;
+			targetProxy = 4CA678DF434C8A929C22CB48764C62AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C8B6AC75056B88E06BF236657AB3533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9212E9BD4ADE0321D2160FA746D895F1 /* HKChineseWords.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HKChineseWords/HKChineseWords-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKChineseWords/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HKChineseWords/HKChineseWords.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HKChineseWords;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1565AC396124617E514ED4D6289380CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9212E9BD4ADE0321D2160FA746D895F1 /* HKChineseWords.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HKChineseWords/HKChineseWords-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKChineseWords/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HKChineseWords/HKChineseWords.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HKChineseWords;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F2874A27684E3E3976B5ECEFE048FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB0F4C86B19D2D8D36C3E96A700CF00 /* Pods-ChineseHandleWritting.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChineseHandleWritting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChineseHandleWritting/Pods-ChineseHandleWritting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChineseHandleWritting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7A26742C15F67F16E683D17E54BA53DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09D712C5B2BCF37CF467A45C19855EA /* Pods-ChineseHandleWrittingUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChineseHandleWrittingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChineseHandleWrittingUITests/Pods-ChineseHandleWrittingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChineseHandleWrittingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C47C542144DD8E8B49DB48CCD49C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37DB4A026FB3B9A955EBB7EAF5EFC10 /* Pods-ChineseHandleWrittingTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChineseHandleWrittingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChineseHandleWrittingTests/Pods-ChineseHandleWrittingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChineseHandleWrittingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C51FE8F163BCC0274DD4D2CB7240292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6589469F3F171D655CFBC973F9FB0C32 /* Pods-ChineseHandleWrittingUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChineseHandleWrittingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChineseHandleWrittingUITests/Pods-ChineseHandleWrittingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChineseHandleWrittingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D2D4AA30FE87456519E0C37E06BC78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B036CF5E0B7F7CCAD25173010892DE /* Pods-ChineseHandleWrittingTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChineseHandleWrittingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChineseHandleWrittingTests/Pods-ChineseHandleWrittingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChineseHandleWrittingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C65C03C4BB4C589EDB609B9506A5CAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD138C88121E99A6AB4284F77E471397 /* Pods-ChineseHandleWritting.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChineseHandleWritting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChineseHandleWritting/Pods-ChineseHandleWritting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChineseHandleWritting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268E54F49C61BE9223536B5E8956C550 /* Build configuration list for PBXNativeTarget "Pods-ChineseHandleWrittingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2D4AA30FE87456519E0C37E06BC78E /* Debug */,
+				89C47C542144DD8E8B49DB48CCD49C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355BEBC7FBCDF6DE84B886B0C4BE0456 /* Build configuration list for PBXNativeTarget "Pods-ChineseHandleWrittingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51FE8F163BCC0274DD4D2CB7240292 /* Debug */,
+				7A26742C15F67F16E683D17E54BA53DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8163E79A1978537413DE4F03AD0EAB /* Build configuration list for PBXNativeTarget "Pods-ChineseHandleWritting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2874A27684E3E3976B5ECEFE048FCD /* Debug */,
+				C65C03C4BB4C589EDB609B9506A5CAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A1DE999222DB712B67F26E05BF99BF /* Build configuration list for PBXNativeTarget "HKChineseWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1565AC396124617E514ED4D6289380CA /* Debug */,
+				0C8B6AC75056B88E06BF236657AB3533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
